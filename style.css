@@ -1,0 +1,343 @@
+
+body,html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#141024;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:#141024;
+    margin: 0;
+    display: flex;
+}
+.headerlogotext {
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    font-size: 30px;
+}
+
+.headerlogo {
+    width: 228px;
+    height: 48px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+
+.header_container {
+    width: 1920px;
+    height: 48px;
+    justify-content: space-between;
+    display: flex;
+}
+
+nav {
+    width: 324px;
+    height: 32px;
+    margin: 0;
+    display: flex;
+    margin-top: 38px;
+}
+
+.header_nav_text {
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.header_nav1 {
+    width: 79px;
+    height: 32px;
+    margin-right: 40px;
+}
+
+.header_nav2 {
+    width: 76px;
+    height: 32px;
+    margin-right: 40px;
+}
+
+.header_nav3 {
+    width: 89px;
+    height: 32px;
+}
+
+.header_number_text {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    margin: 0;
+    font-size: 30px;
+}
+
+.header_number {
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+.hero_container {
+    display: grid;
+    margin-left: 380px;
+    margin-right: 213px ;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 810px;
+
+
+}
+.hero_left {
+    height: 295px;
+    width: 515px;
+}
+.hero_left_text {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 70px;
+    line-height: 160%;
+    margin: 0;
+    margin-top: 275px;
+    width: 516px;
+
+}
+
+.hero_left_descrip {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 160%;
+    color: #fff;
+    margin: 0;
+    margin-top: 20px;
+    display: inline-block;
+    width: 478px;
+}
+
+.hero_btn {
+    max-height: 80px;
+    border:3px solid transparent;
+    border-radius: 5px;
+    background-color: #D52027;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #D52027;
+    text-decoration: none;
+    width: 160px;
+    height: 29px;
+    display: block;
+    box-sizing: content-box;
+    padding: 25px 50px;
+    margin-top: 50px;
+    transition: 0.35s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #D52027;
+    border: 3px solid #D52027;
+}
+
+.hero_right_img {
+    width: 560px;
+    height: 656px;
+    margin: 0;
+}
+
+.hero_right {
+    width: 560px;
+    height: 656px;
+    margin: 0;
+    box-sizing:border-box;
+    margin-left: 700px;
+    transform:translate(0,-22%)
+    
+}
+
+.container_about1 {
+    height: 608px;
+    width: 1920px;
+    background-color: #fff;
+}
+
+.container_about2 {
+    height: 608px;
+    width: 1160px;
+    background-color: #fff;
+    max-width: 1920px;
+    padding: 0 380px;
+}
+
+.about_tutle_container {
+    height: 144px;
+    width: 860px;
+    display: block;
+}
+
+.span_title_high {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    color: #141024;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 215px;
+    display: inline-block;
+}
+
+.about_title_text {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #141024;
+    font-style: normal;
+    line-height: 160%;
+    width: 740px;
+    display: inline-block;
+    margin: 0;
+}
+
+
+.about_title {
+    width: 784px;
+    height: 113px;
+    padding-top: 114px;
+}
+
+.container_about {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns:260px 260px 260px 260px;
+    gap: 56px;
+}
+
+.item_about {
+
+    padding: 10px;
+    width: 260px;
+    height: 170px;
+    margin: 0;
+}
+
+.about_text_number {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 160%;
+    color: #d52027;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+}
+
+
+.about_text_descrip {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(20, 16, 36, 0.7);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+}
+
+
+.perspective_main {
+    margin: 0;
+    height: 485px;
+    padding: 0;
+    margin: 0;
+    width: 1166px;
+    margin-left: 375px;
+    margin-right: 379px;
+}
+
+.perspective_container {
+width: 100%;
+height: 485px;
+background-color:#F9F9F9
+}
+
+.perspective_descrip_container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px
+}
+.perspective_items {
+    margin: 0;
+    width: 360px;
+    height: 125px;
+    display: grid;
+}
+
+.perspective_item_descrip_title {
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 160%;
+    color: #141024;
+    margin-bottom: 20px;
+}
+
+.perspective_item_descrip {
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(20, 16, 36, 0.7); 
+}
+
+.perspective_title {
+    margin: 0;
+    height: 80px;
+    padding-top: 112px;
+    margin-bottom: 60px;
+}
+
+.perspective_title_text {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 160%;
+    color: #141024;
+    margin: 0;
+    height: 80px;
+}
+
+.svg_info {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
