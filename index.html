@@ -3,10 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>ROBO SCHOOL</title>
+        <link rel="shortcut icon" href="https://live.verstaem.online/robo-school/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      />
     </head>
     <body>
         <div class="site_container">
@@ -19,7 +25,7 @@
                     <div class="header_nav3"><p class="header_nav_text">Стоимость</p></div>
                    </nav>
                    <div class="header_number">
-                    <p class="header_number_text">+7 800 000 14 88</p>  
+                    <p class="header_number_text">+7 800 000 11 22</p>  
                    </div>
                 </div>
             </header>
@@ -32,7 +38,7 @@
                         <a href="#" class="hero_btn btn">Записаться на курс</a>
                       </div>
                       <div class="hero_right"> <!--контейнер под самого героя-->
-                        <img src="image/Group 211.png" class="hero_right_img" alt="девушка">
+                        <img src="img/Group 211.png" class="hero_right_img" alt="девушка">
                       </div>
                    </div>
                 </section>
@@ -83,11 +89,15 @@
                                     <p class="perspective_item_descrip">По основам разработки учебно-методических комплексов</br> по робототехнике и программированию</p>
                                 </div>
                                 <div class="perspective_items">
-                                    <p class="perspective_item_descrip_title">Практику<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg_info">
-                                        <path d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12Z" fill="#141024" fill-opacity="0.08"/>
-                                        <path d="M11.5488 7.8695C10.9552 7.8695 10.6584 7.5895 10.6584 7.0295C10.6584 6.4807 10.9552 6.2063 11.5488 6.2063C12.1424 6.2063 12.4392 6.4807 12.4392 7.0295C12.4392 7.5895 12.1424 7.8695 11.5488 7.8695ZM11.5488 18.0839C11.1008 18.0839 10.8768 17.8375 10.8768 17.3447V10.4735C10.8768 9.9919 11.1008 9.7511 11.5488 9.7511C12.008 9.7511 12.2376 9.9919 12.2376 10.4735V17.3447C12.2376 17.8375 12.008 18.0839 11.5488 18.0839Z" fill="#141024"/>
+                                  <div class="perspective_item_descrip_title_container">
+                                    <p class="perspective_item_descrip_title">Практику</p>
+                                      <div class="container_svg">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg_info">
+                                          <path d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12Z" fill="#141024" fill-opacity="0.08"/>
+                                          <path d="M11.5488 7.8695C10.9552 7.8695 10.6584 7.5895 10.6584 7.0295C10.6584 6.4807 10.9552 6.2063 11.5488 6.2063C12.1424 6.2063 12.4392 6.4807 12.4392 7.0295C12.4392 7.5895 12.1424 7.8695 11.5488 7.8695ZM11.5488 18.0839C11.1008 18.0839 10.8768 17.8375 10.8768 17.3447V10.4735C10.8768 9.9919 11.1008 9.7511 11.5488 9.7511C12.008 9.7511 12.2376 9.9919 12.2376 10.4735V17.3447C12.2376 17.8375 12.008 18.0839 11.5488 18.0839Z" fill="#141024"/>
                                         </svg>
-                                        </p>
+                                      </div>
+                                  </div>
                                     <p class="perspective_item_descrip">Возможность пройти практику</br> по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</p>
                                 </div>
                             </div>
@@ -95,29 +105,121 @@
                     </div>
                 </section>
 
-
-                <section>
-
-                </section>
+                <div class="pre-slider">
+                    <p class="pre-slider-text">Профессиональные тренеры</p>
+                </div>
+                <section class="slaider">
+                    <div class="swiper mySwiper slaiderz">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <img src="img/irina1.png">
+                          <div class="slider-description">
+                            <p class="slider__img__heading">Ирина Лайм</p>
+                            <p class="slider__img__description">преподаватель по робототехнике</p>
+                            <a href="#" class="slider__img__button">Подробнее</a>
+                          </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/marina2.png">
+                          <div class="slider-description">
+                            <p class="slider__img__heading">Марина Орлова</p>
+                            <p class="slider__img__description">преподаватель по робототехнике</p>
+                            <a href="#" class="slider__img__button">Подробнее</a>
+                          </div>
+                         </div>
+                        <div class="swiper-slide">
+                          <img src="img/maksim3.png">
+                          <div class="slider-description">
+                          <p class="slider__img__heading">Максим Петров</p>
+                          <p class="slider__img__description">преподаватель по программированию</p>
+                          <a href="#" class="slider__img__button">Подробнее</a>
+                         </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/konstanta4.png">
+                          <div class="slider-description">
+                          <p class="slider__img__heading">Константин Назаров</p>
+                          <p class="slider__img__description">преподаватель по робототехнике</p>
+                          <a href="#" class="slider__img__button">Подробнее</a>
+                         </div>
+                        </div>
+                        <div class="swiper-slide">
+                          <img src="img/liza5.png">
+                          <div class="slider-description">
+                          <p class="slider__img__heading">Лиза Весенняя</p>
+                          <p class="slider__img__description">преподаватель по программированию</p>
+                          <a href="#" class="slider__img__button">Подробнее</a>
+                        </div>
+                       </div>
+                     </div>
+                  
+                    </div>
+                  <div class="swiper-ostalnoe">
+                    <div class="swiper-scrollbar"></div>
+                    <div class="swiper-buttons">
+                      <div class="swiper-button-prevz"><img src="img/Arrowleft.svg"></div>
+                      <div class="swiper-button-nextz"><img src="img/Arrow - Right.svg"></div>
+                    </div>
+                  </div>
+                  </section>
             
 
+                  <section>
+                        <div class="price_main">
+                            <div class="price_title">
+                                <p class="price_title_text">Выберите нужный пакет</p>
+                            </div>
+                            <div class="price_items">
+                               <div class="price_item">
+                                  <p class="price_item_title">– PRO –</p>
+                                  <p class="price_item_price">20.000 ₽</p>
+                                  <p class="price_item_descrip">УМК по робототехнике</br> и программированию</p>
+                                  <a class="btn_price1">Оставить заявку</a>
+                               </div>
+                               <div class="price_item">
+                                  <p class="price_item_title">– ROBO –</p>
+                                  <p class="price_item_price">15.000 ₽</p>
+                                  <p class="price_item_descrip">УМК по робототетхнике </p>
+                                  <a class="btn_price">Оставить заявку</a>
+                               </div>
+                               <div class="price_item">
+                                  <p class="price_item_title">– PROG –</p>
+                                  <p class="price_item_price">10.000 ₽</p>
+                                  <p class="price_item_descrip">УМК по программированию</p>
+                                  <a class="btn_price">Оставить заявку</a>
+                              </div>
+                           </div>
+                        </div>
+                </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                <section class="pre-footer">
+                  <div class="pre-footer-precontainer">
+                    <div class="pre-footer-container">
+                       <div class="pre-footer-left">
+                        <p class="pre-footer-left-hightext">Запишитесь на курс со скидкой 10%</p>
+                        <p class="pre-footer-left-text">Акция действительна до 10 марта 2025 года</p>
+                       </div>
+                       <div class="pre-footer-background">
+                        <b class="pre-footer-background-percent">%%%%%%%%%%%%%%</b>
+                       </div>
+                        <form class="pre-footer-right-form">
+                           <label class="pre-footer-right-label-name"><input required placeholder="Имя" class="pre-footer-right-input-name" type="text"></label>
+                           <label class="pre-footer-right-label-number"><input required placeholder="Телефон" class="pre-footer-right-input-number" type="number"></label>
+                           <label class="pre-footer-right-label-email"><input required placeholder="E-mail" class="pre-footer-right-input-email" type="email"></label>
+                           <button class="pre-footer-right-button">Оформить заявку</button>
+                        </form>
+                    </div>
+                  </div>
+                </section>
             </main>
+
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-title"><p>ROBO.SCHOOL</p></div>
+                    <div class="footer-copyright"><p>© ROBO.SCHOOL</p></div>
+                    <div class="footer-number"><p>+7 800 000 11 22</p></div>
+                </div>
+            </footer>
         </div>
         <script src="script.js"></script>
     </body>
